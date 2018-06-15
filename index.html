@@ -8,8 +8,33 @@
   <title>DrumKit</title>
   <!-- <link rel="stylesheet" href="css/reset.css"> -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+            
+
+
+
 </head>
 <body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        </div>
+      </nav>
 
   <div class="keys">
 
@@ -60,7 +85,7 @@
 
   </div>
 
-  <audio data-key="65" src="../sounds/clap.wav"></audio>
+  <audio data-key="65" src="/sounds/clap.wav"></audio>
   <audio data-key="83" src="../sounds/hihat.wav"></audio>
   <audio data-key="68" src="../sounds/kick.wav"></audio>
   <audio data-key="70" src="../sounds/openhat.wav"></audio>
@@ -70,9 +95,53 @@
   <audio data-key="75" src="../sounds/tom.wav"></audio>
   <audio data-key="76" src="../sounds/tink.wav"></audio>
 
+  <footer class="footer-distributed">
 
-  <footer>
-    <!-- <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+    <div class="footer-left">
+
+      <h3>Mudanic<span>.com</span></h3>
+
+      <p class="footer-links">
+        <a href="#">Home</a>
+        ·
+        <a href="#">Blog</a>
+        ·
+        <a href="#">About</a>
+        ·
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Mudanic &copy; 2018</p>
+
+      <div class="footer-icons">
+
+
+        <a href="https://twitter.com/NikomedesFeidli?lang=en"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/codetea/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/Bioinformatics-Surgeon"><i class="fa fa-github"></i></a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p>Contact Us</p>
+
+      <form action="#" method="post">
+
+        <input type="text" name="email" placeholder="Email" />
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Send</button>
+
+      </form>
+
+    </div>
+
+  </footer>
+
+  <!-- <footer>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
       href="https://unsplash.com/@dhamp15?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
       target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Dominic Hampton">
       <span style="display:inline-block;padding:2px 3px">
@@ -83,8 +152,9 @@
         </svg>
       </span>
       <span style="display:inline-block;padding:2px 3px">Dominic Hampton</span>
-    </a> -->
-  </footer>
+    </a>
+  </footer> -->
+
   <script>
 
     function playSound(e) {

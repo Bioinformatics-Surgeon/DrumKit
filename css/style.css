@@ -49,3 +49,16 @@ kbd {
   letter-spacing: 0.1rem;
   color: gold;
 }
+
+footer {
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  padding:4px 6px;
+  font-family:'Times New Roman', Times, serif;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.2;
+  display:inline-block;
+  border-radius:3px
+}
