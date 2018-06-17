@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  background: url(../images/dominic-hampton-615622-unsplash.jpg) bottom center;
+  background: url(../images/dominic-hampton-615622-unsplash.jpg) center bottom;
   background-size: cover;
 }
 
@@ -61,4 +61,11 @@ footer {
   line-height:1.2;
   display:inline-block;
   border-radius:3px
+}
+
+.nav-wrapper {
+  width: 70%;
+}
+nav {
+  width: 70%;
 }
