@@ -55,7 +55,7 @@ footer {
   color:white;
   text-decoration:none;
   padding:4px 6px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Yatra One', cursive;
   font-size:12px;
   font-weight:bold;
   line-height:1.2;
@@ -68,4 +68,6 @@ footer {
 }
 nav {
   width: 70%;
+  font-family: 'Yatra One', cursive;
+
 }
