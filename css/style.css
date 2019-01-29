@@ -1,14 +1,11 @@
-html {
-  font-size: 62.5%;
-  background: url(../images/dominic-hampton-615622-unsplash.jpg) center bottom;
-  background-size: cover;
-}
-
 body,
 html {
+  font-size: 62.5%;
+  background-size: cover;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: url(../images/dominic-hampton-615622-unsplash.jpg) center bottom;
 }
 
 .keys {
